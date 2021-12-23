@@ -1,0 +1,169 @@
+.navbar {
+    background: linear-gradient(to right, #111 70%, #eee);
+}
+
+.navbar img {
+    height: 40px;
+    padding-right: 5px;
+}
+
+.navbar ul a {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.navbar ul a:hover {
+    background: white;
+    color: black !important;
+    border-radius: 15px;
+}
+
+.carousel {
+    margin-top: 50px;
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+.about-us {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+}
+
+.about-us h1 {
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.about-us .hr {
+    width: 50%;
+    height: 2px;
+    background-color: tomato;
+    margin: auto;
+}
+
+hr {
+    border: 2px dashed white;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.about-us-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.about-us-info .test p {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.our-gallary {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.our-gallary h1 {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.our-gallary .hr {
+    width: 50%;
+    height: 2px;
+    background-color: tomato;
+    margin: auto;
+}
+.our-gallary-header ul li a{
+    color: black;
+    background-color: white;
+}
+.card{
+    background-color: lightslategray;
+}
+.card .card-text{
+    color: white;
+}
+.card .btn{
+    background-color: rgb(144, 219, 238);
+    color: black;
+}
+.card .btn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.nav-tabs {
+    width: 50%;
+    border-radius: 10px;
+}
+
+@media(max-width:600px){
+    .nav-tabs {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+}
+
+hr {
+    border: 2px dashed white;
+}
+
+.contact-us .hr {
+    width: 50%;
+    height: 2px;
+    background-color: tomato;
+    margin: auto;
+}
+
+hr {
+    border: 2px dashed white;
+}
+
+.form-label {
+    color: white;
+}
+
+.footer {
+    background-color: gray;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.footer .hr {
+    width: 100%;
+    height: 3px;
+    background-color: hotpink;
+}
+.fa-facebook{
+    color: blue;
+    margin-left: 40px;
+    font-size: 30px;
+}
+.text-center{
+    text-align: left;
+}
+.fa-instagram-square{
+    color: blueviolet;
+    font-size: 30px;
+}
